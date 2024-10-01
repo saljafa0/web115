@@ -1,29 +1,17 @@
-
-
-
-html {	
+body {	
 	background-color: #C1E899;
+	margin: 0 auto;
 }
-
 h1{
-	font:serif;
-	color:#C1E899;
+	font-family:serif;
+	color: rgb(0,0,0);
+	text-align: center;
+	width: 100%;
+	text-shadow: 2px 2px rgb(0,127,0);
 }
-header{
-	background: #062E03;
-	text-align: center ;
-	margin:0;
-	padding:0;
-	padding-top:0;
-	
-}
-
 p{
-	font: serif;
+	font-family: serif;
 }
-
-
-
 /*nav bar*/
 nav{
 	background-color:#55883B
@@ -64,14 +52,10 @@ body footer{
 	flex-direction: column;
 	align-items: center;
 
-article ul li:first-of-type { color: red};
-
-footer {
+/*anchor styles*/
+a{
+	color: rgb(0,0,0);
 }
-@media devices
-
-
-
-	
-		
-		
+a:hover{
+	color: rgb(0,255,0);
+}
